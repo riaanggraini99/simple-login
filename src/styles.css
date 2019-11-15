@@ -1,1 +1,95 @@
 /* You can add global styles to this file, and also import other style files */
+/* Made with love by Mutiullah Samim*/
+
+@import url('https://fonts.googleapis.com/css?family=Numans');
+
+html,body{
+/* background-image: url('http://getwallpapers.com/wallpaper/full/a/5/d/544750.jpg'); */
+background-size: cover;
+background-repeat: no-repeat;
+height: 100%;
+background-color: #1fd1f9;
+background-image: linear-gradient(415deg, #1fd1f9 0%, #b621fe 74%);
+font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+font-size: 1rem;
+font-weight: 400;
+line-height: 1.5;
+color: #212529;
+}
+
+.loginform{
+    width: 450px;
+    height: 450px;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    display: block;
+    /* width: 100%; */
+    margin: auto;
+    text-align: center;
+    width: 380px;
+    top: 50%;
+    margin-top :10%;
+}
+
+.login{
+    content: "";
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+}
+.head{
+    text-align: center;
+    margin-top: 12px;
+}
+input,
+select.form-control {
+height: 30px;
+width: 280px;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid grey;
+  -webkit-box-shadow: none;
+  box-shadow: 0px 1px #888888;
+  /* box-shadow: none; */
+  border-radius: 0;
+  margin: 16px;
+}
+.loginbtn {
+    margin: 20px;
+    width: 280px;
+    height: auto;
+    background-image: linear-gradient(415deg, #1fd1f9 0%, #b621fe 74%);
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+input:focus,
+select.form-control:focus {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.loginForm{
+    width: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.fa{
+    color: #1fd1f9;
+    margin: 12px;
+}
